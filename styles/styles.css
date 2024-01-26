@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(103, 7, 7);
+}
+
+.nav_link {
+    padding: 10px;
+    color:rgb(240, 32, 21);
+    font-size: 1.3em;
+}
+
+h1 {
+    color: rgb(255, 0, 30);
+}
+
+p {
+    color: rgb(227, 10, 10);
+}
+
+h2 {
+    color: rgb(255, 4, 4);
+}
