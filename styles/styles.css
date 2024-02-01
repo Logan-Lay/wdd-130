@@ -1,5 +1,12 @@
+* {
+    border: 2px solid red;
+}
 body {
     background-color: rgb(103, 7, 7);
+}
+
+#content {
+    max-width: 1000px;
 }
 
 .nav_link {
@@ -9,13 +16,41 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: rgb(255, 0, 30);
 }
 
 p {
+    text-align: center;
     color: rgb(227, 10, 10);
 }
 
 h2 {
+    text-align: center;
     color: rgb(255, 4, 4);
 }
+
+nav a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    color:blue;
+    background-color: rgb(255, 0, 0);
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgb(69, 9, 9);
+    padding: 20px;
+}
+
