@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(14, 161, 228);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
+
+#nelson_quote {
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 12px;
+}
+
+.nelson_credit {
+    text-align: center;
+    color: white;
+}
+
+ol {
+    margin-left: 30%;
+    color: black;
+    line-height: 2em;
+    font-size: 15px;
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+}
+
+.nelson_quote2 {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    font-size: 30px;
+}
+
+.nelson {
+    text-align: center;
+}
+
+.church {
+    text-align: center;
+}

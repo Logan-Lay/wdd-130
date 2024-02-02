@@ -1,8 +1,8 @@
-* {
-    border: 2px solid red;
-}
+/* * {
+    border: 2px solid red; */
+/* } */
 body {
-    background-color: rgb(103, 7, 7);
+    background-color: rgb(69, 222, 178);
 }
 
 #content {
@@ -11,13 +11,13 @@ body {
 
 .nav_link {
     padding: 10px;
-    color:rgb(240, 32, 21);
+    color:rgb(25, 52, 67);
     font-size: 1.3em;
 }
 
 h1 {
     text-align: center;
-    color: rgb(255, 0, 30);
+    color: rgb(7, 35, 45);
 }
 
 p {
@@ -50,7 +50,7 @@ img {
 }
 
 header, footer {
-    background-color: rgb(69, 9, 9);
+    background-color: rgb(9, 117, 78);
     padding: 20px;
 }
 
