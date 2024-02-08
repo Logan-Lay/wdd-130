@@ -20,14 +20,33 @@ h1 {
     color: rgb(7, 35, 45);
 }
 
-p {
+main p {
     text-align: center;
-    color: rgb(227, 10, 10);
+    color: rgb(7, 35, 45);
+    width: 60%;
+    margin: 50px auto;
+    background-color:rgb(9, 117, 78);
+    padding: 30px;
+    padding: bottom;
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(7, 35, 45);
+    width: 40%;
+    margin: 25px auto;
+    background-color:rgb(9, 117, 78);
+    padding: 20px;
+    padding: bottom;
+    border: 5px solid black;
+    border-radius: 5px;
 }
 
 h2 {
     text-align: center;
-    color: rgb(255, 4, 4);
+    color: rgb(7, 35, 45);
 }
 
 nav a {
@@ -47,6 +66,9 @@ nav a:hover {
 img {
     display:block;
     margin: 0 auto;
+    width: 30%;
+    border: 5px solid black;
+    border-radius: 500px;
 }
 
 header, footer {
