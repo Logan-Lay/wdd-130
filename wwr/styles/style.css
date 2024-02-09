@@ -12,9 +12,11 @@
 
 nav a {
     text-align: center;
-    color: #e0872e;
-    background-color: #0b91da;
+    color: #fa9026;
+    background-color: #0872ab;
     text-decoration: none;
+    padding: 10px 35px;
+    margin-top: 10px;
 }
 
 #hero-img {
@@ -36,7 +38,9 @@ nav a {
 main section {
     text-align: center;
 }
-
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
@@ -44,24 +48,31 @@ main section {
 body {
     background-color: white;
     font-family: "Anton", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color: #0b91da;
+    background-color: #0872ab;
     font-family: var(--heading-font);
 }
-nav a:hover {
-    color: white;
-    background-color: #355f7e;
-}
 .book {
-    background-color: #0b91da;
-    color: #e0872e;
+    background-color: #0872ab;
+    color: #fa9026;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 } 
 .join {
-    background-color: #0b91da;
-    color: #e0872e;
+    background-color: #0872ab;
+    color: #fa9026;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #355f7e;
@@ -75,17 +86,23 @@ nav a:hover {
     background-color: white;
 }
 .msg {
-    background-color: #0b91da;
+    background-color: #0872ab;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
-    color: #e0872e;
+    color: #fa9026;
 }
 .msg p {
-    color: #e0872e;
+    color: #fa9026;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
-    background-color: #0b91da;
-    color: #e0872e;
+    background-color: #0872ab;
+    color: #fa9026;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #281867;
@@ -99,13 +116,41 @@ nav a:hover {
     color: white;
 }
 .home-title {
-    background-color: #0b91da;
-    color: #e0872e;
+    background-color: #0872ab;
+    color: #fa9026;
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    background-color: #0b91da;
-    color: #e0872e;
+    background-color: #0872ab;
+    color: #fa9026;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.river-card {
+    margin: 200px 0;
+}
+.camp-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0872ab;
 }
