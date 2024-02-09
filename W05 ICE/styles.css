@@ -1,0 +1,46 @@
+#cover {
+    width: 100%;
+    margin: 0px;
+}
+
+main div {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: gray;
+    margin: 0px;
+}
+
+#three_images {
+    padding: 30px;
+    margin-left: 10%;
+}
+
+.desk {
+    margin: 40px;
+    border: 10px solid rgb(45, 45, 45);
+    border-radius: 50%;
+}
+
+.graphic {
+    margin: 40px;
+    border: 10px solid rgb(45, 45, 45);
+    border-radius: 50%;
+}
+
+.person {
+    margin: 40px;
+    border: 10px solid rgb(45, 45, 45);
+    border-radius: 50%;
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+}
