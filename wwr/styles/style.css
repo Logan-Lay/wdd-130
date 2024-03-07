@@ -142,7 +142,7 @@ nav a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
-h4 {
+#memories {
     background-color: #0872ab;
     color: #fa9026;
 }
@@ -222,8 +222,95 @@ footer .social img {
 
 /* BLOG PAGE CSS */
 
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 50px;
+    margin: 30px;
+}
 
+#title {
+    grid-column: 1/4;
+    text-align: center;
+}
 
+#line1 {
+    grid-column: 4/7;
+    grid-row: 1/2;
+}
+
+#rafting-booking {
+    grid-column: 1/5;
+    width: 100%;
+}
+
+#booking {
+    grid-column: 5/7;
+    text-align: center;
+}
+
+/* #head1 {
+    text-align: center;
+    grid-column: 5/7;
+}
+
+#booking-text {
+    text-align: center;
+    grid-column: 5/7;
+} */
+
+/* #line2 {
+
+} */
+
+#rafting-highlights {
+    grid-column: 1/5;
+    width: 100%;
+}
+
+#highlights {
+    text-align: center;
+    grid-column: 5/7;
+}
+
+/* #head2 {
+    text-align: center;
+    grid-column: 5/7;
+}
+
+#highlight-text {
+    text-align: center;
+    grid-column: 5/7;
+} */
+
+/* #line3 {
+    
+} */
+
+#wild-title {
+    text-align: center;
+    grid-column: 1/7;
+}
+
+#scorpion {
+    width: 100%;
+    grid-column: 1/4;
+}
+
+#big-horn-sheep {
+    width: 100%;
+    grid-column: 4/7;
+}
+
+#scorpion-text {
+    grid-column: 1/4;
+}
+
+#sheep-text {
+    grid-column: 4/7;
+}
+
+/* MEDIA QUIERY */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
