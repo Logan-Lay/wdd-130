@@ -97,7 +97,7 @@ main {
     width: 30%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #1A1A1A;
+    background-color: #0872ab;
     margin: auto;
     font-family: var(--paragraph-font);
     text-align: center;
@@ -109,7 +109,7 @@ main {
 #home-middle-text-box {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #1A1A1A;
+    background-color: #0872ab;
     width: 80%;
     margin: auto;
     font-family: var(--paragraph-font);
