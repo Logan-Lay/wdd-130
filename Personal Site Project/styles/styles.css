@@ -13,14 +13,14 @@
 }
 
 header {
-    background-color: #1C6FB6 ;
+    background-color: var(--primary-color);
     font-family: var(--heading-font);
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 footer {
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     color: #F1F6FA;
     padding: 25px 50px;
     margin-top: 0px;
@@ -46,22 +46,31 @@ footer a {
     align-self: center;
 }
 
-nav a {
+nav a, footer a, footer p {
     text-align: center;
     color: #F1F6FA;
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     text-decoration: none;
     padding: 10px 35px;
     margin-top: 10px;
+    font-size: 20px;
 }
+
+nav a:hover, footer p>a:hover, #food-home:hover, #activities-home:hover {
+    color: var(--primary-color);
+    background: var(--accent1-color);
+    border-radius: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 17.5px;
 }
 
 .mapicon {
-    width: 80px;
+    height: 80px;
 }
 
 body {
@@ -97,7 +106,7 @@ main {
     width: 30%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     margin: auto;
     font-family: var(--paragraph-font);
     text-align: center;
@@ -109,7 +118,7 @@ main {
 #home-middle-text-box {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     width: 80%;
     margin: auto;
     font-family: var(--paragraph-font);
@@ -165,13 +174,16 @@ main {
 }
 
 #food-home {
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     padding: 8px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 #activities-home {
-    background-color: #0872ab;
+    background-color: var(--primary-color);
     padding: 8px;
     border-radius: 10px;
+    text-decoration: none;
+
 }
