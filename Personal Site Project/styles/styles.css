@@ -47,6 +47,7 @@ footer a {
 }
 
 nav a, footer a, footer p {
+    transition: 0.3s;
     text-align: center;
     color: #F1F6FA;
     background-color: var(--primary-color);
@@ -54,12 +55,15 @@ nav a, footer a, footer p {
     padding: 10px 35px;
     margin-top: 10px;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 nav a:hover, footer p>a:hover, #food-home:hover, #activities-home:hover {
     color: var(--primary-color);
     background: var(--accent1-color);
     border-radius: 10px;
+    /* opacity: 0.6; */
+    transition: 0.3s;
 }
 
 nav {
@@ -178,6 +182,7 @@ main {
     padding: 8px;
     border-radius: 10px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 #activities-home {
@@ -185,5 +190,33 @@ main {
     padding: 8px;
     border-radius: 10px;
     text-decoration: none;
+    transition: 0.3s;
+}
 
+/* SUBPAGE 1: FOOD IN REXBURG */
+
+#food-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#five-guys-image, #mill-hollow-image, iframe {
+    grid-column: 2/4;
+    margin: auto;
+    padding: 10px;
+}
+
+#food-text1, #food-text2, #map-title1 {
+    grid-column: 1/2;
+    margin: auto;
+}
+
+#food-head1, #food-text1, #food-head2, #food-text2, #map-title1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: var(--paragraph-font);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 10px;
+    margin-left: 20px;
 }
