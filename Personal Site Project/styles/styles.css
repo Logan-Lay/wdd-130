@@ -293,3 +293,70 @@ main {
     border-radius: 10px;
 
 }
+
+/* SUBPAGE 2: ACTIVITIES IN REXBURG */
+
+/* @media only screen and (max-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  
+  .parallax {
+    background-image: url("images/byui_rexburg.jpg"); Replace "your-image.jpg" with the path to your background image */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Set the height to 100 viewport height units to make it full-screen */
+    /* position: relative;
+    z-index: -1; /* Ensure the parallax background stays behind the content */
+  /* } */
+
+#activities-main {
+    display: grid;
+    /* grid-template-columns: ; */
+}
+
+h2, p {
+    font-family: var(--paragraph-font);
+}
+  
+#top-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#activities-head1 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    color: var(--accent1-color);
+    text-align: center;
+}
+
+#activities-p-1 {
+    grid-row: 1/3;
+    grid-column: 2/4;
+    color: var(--accent1-color);
+    text-align: center;
+    
+}
+
+#activities-head1, #activities-head2, #activities-head3, #map-title2 {
+    font-size: 30px;
+}
+
+#activities-p-1, #activities-p-2, #activities-p-3 {
+    font-size: 25px;
+}
+
+#field-img {
+    z-index: -1;
+    grid-row: 1/3;
+    grid-column: 1/4;
+}
+
+#football-field {
+    width: 100%;
+    filter: brightness(35%)
+}
